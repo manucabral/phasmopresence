@@ -1,6 +1,8 @@
 # PhasmoPresence
 A simple Phasmophobia Rich Presence client made with :heart:
 
+IMPORTANT! This app does not use MelonLoader
+
 ## Features
 - Shows if you're playing singleplayer or multiplayer
 - Shows how long you've been playing
