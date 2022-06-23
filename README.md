@@ -14,6 +14,8 @@ IMPORTANT! This app does not use MelonLoader or PhasBypass
 2. Extract the zip file and open `PhasmoPresence.exe`
 3. Play Phasmophobia
 
+> If you want to open phasmopresence and phasmophobia at the same time execute runpp.bat
+
 ## How does it work?
 
 It's simple, PhasmoPresence periodically gets and checks information from the player log.
@@ -30,7 +32,11 @@ The player log is located in the next path `C:\Users\%YOUR_USER%\AppData\LocalLo
   - Yes, you need to open Discord to run the app.
 
 ## Preview
-- Developing..
+<p align="center"> 
+<img src="https://github.com/manucabral/phasmopresence/blob/main/assets/loading.png?raw=true" width="250" title="loading">
+<img src="https://github.com/manucabral/phasmopresence/blob/main/assets/playing.png?raw=true" width="250" title="playing">
+<img src="https://github.com/manucabral/phasmopresence/blob/main/assets/menu.png?raw=true" width="250" title="menu">
+</p>
 
 ## Credits
 - [pypresence](https://github.com/qwertyquerty/pypresence)
