@@ -16,8 +16,30 @@ IMPORTANT! This app does not use MelonLoader or PhasBypass
 
 > If you want to open phasmopresence and phasmophobia at the same time execute runpp.bat
 
-## How does it work?
+## Setup for developers
+1. Go to Discord Developer Portal and create an application
+3. Now go to Settings > OAuth2 and copy the clientid
+4. Finally go to Settings > Rich Presence and add each map image with the following pattern: `bleasdalefarmhouse`
+> All maps need to be added
+5. Clone the repository
+```bash
+git clone https://github.com/manucabral/phasmopresence.git
+cd phasmopresence
+```
+6. Install the requirements
+```bash
+pip install -r requirements.txt
+```
+7. Go to **src/core.py** and put your clientid.
+```py
+PhasmoPresence('YOUR CLIENT ID', log=True)
+```
+8. Run src/core.py
+```bash
+py src/core.py
+```
 
+## How does it work?
 It's simple, PhasmoPresence periodically gets and checks information from the player log.
 
 The player log is located in the next path `C:\Users\%YOUR_USER%\AppData\LocalLow\Kinetic Games\Phasmophobia\Player.log`
@@ -30,6 +52,9 @@ The player log is located in the next path `C:\Users\%YOUR_USER%\AppData\LocalLo
 
 - **Do I need Discord open on my pc to use this app?**
   - Yes, you need to open Discord to run the app.
+
+## Contributing
+All contributions, bug reports, bug fixes, enhancements, and ideas are welcome. Just make a pull request or a issue!
 
 ## Preview
 <p align="center"> 
