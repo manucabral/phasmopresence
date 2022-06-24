@@ -1,7 +1,7 @@
 # PhasmoPresence
 A simple Phasmophobia Rich Presence client made with :heart:
 
-IMPORTANT! This app does not use MelonLoader or PhasBypass
+This app does not use **MelonLoader** or **PhasBypass**
 
 ## Features
 - Shows if you're playing singleplayer or multiplayer
@@ -18,9 +18,9 @@ IMPORTANT! This app does not use MelonLoader or PhasBypass
 
 ## Setup for developers
 1. Go to Discord Developer Portal and create an application
-3. Now go to Settings > OAuth2 and copy the clientid
-4. Finally go to Settings > Rich Presence and add each map image with the following pattern: `bleasdalefarmhouse`
-> All maps need to be added
+2. Now go to Settings > OAuth2 and copy the clientid
+3. Finally go to Settings > Rich Presence
+4. Add each map image with the following pattern: `bleasdalefarmhouse` (all maps need to be added)
 5. Clone the repository
 ```bash
 git clone https://github.com/manucabral/phasmopresence.git
