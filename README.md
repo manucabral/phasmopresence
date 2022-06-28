@@ -1,50 +1,33 @@
-# PhasmoPresence
+# PhasmoPresence👻
 A simple Phasmophobia Rich Presence client made with :heart:
 
 This app does not use **MelonLoader** or **PhasBypass**
 
-## Features
+## ⏬Download
+The lastest release is available [here](https://github.com/manucabral/phasmopresence/releases)
+
+## 🗒️ Features
 - Shows if you're playing singleplayer or multiplayer
 - Shows how long you've been playing
 - Shows current playing map
 - Respects Discords 15 seconds status update limit
 
-## Usage
-1. Download the last version from [here](https://github.com/manucabral/phasmopresence/releases)
-2. Extract the zip file and open `PhasmoPresence.exe`
-3. Play Phasmophobia
+## ❓How does it work?
+It's simple, PhasmoPresence periodically gets and checks information from the player log.
 
-> If you want to open phasmopresence and phasmophobia at the same time execute runpp.bat
+The player log is located in the next path `C:\Users\%YOUR_USER%\AppData\LocalLow\Kinetic Games\Phasmophobia\Player.log`
 
-## Setup for developers
+## 🔧Setup for developers
 1. Go to Discord Developer Portal and create an application
 2. Now go to Settings > OAuth2 and copy the clientid
 3. Finally go to Settings > Rich Presence
 4. Add each map image with the following pattern: `bleasdalefarmhouse` (all maps need to be added)
 5. Clone the repository
-```bash
-git clone https://github.com/manucabral/phasmopresence.git
-cd phasmopresence
-```
 6. Install the requirements
-```bash
-pip install -r requirements.txt
-```
 7. Go to **src/core.py** and put your clientid.
-```py
-PhasmoPresence('YOUR CLIENT ID', log=True)
-```
-8. Run src/core.py
-```bash
-py src/core.py
-```
+8. Run **src/core.py**
 
-## How does it work?
-It's simple, PhasmoPresence periodically gets and checks information from the player log.
-
-The player log is located in the next path `C:\Users\%YOUR_USER%\AppData\LocalLow\Kinetic Games\Phasmophobia\Player.log`
-
-## FAQ
+## 🔨Troubleshooting
 - **My Rich Presence Client is not displaying?**
   - Try
      - Go to your User Settings > Activity Status > Display current activity as a status message and make sure it's enabled.
@@ -53,7 +36,7 @@ The player log is located in the next path `C:\Users\%YOUR_USER%\AppData\LocalLo
 - **Do I need Discord open on my pc to use this app?**
   - Yes, you need to open Discord to run the app.
 
-## Contributing
+## ✨Contributing
 All contributions, bug reports, bug fixes, enhancements, and ideas are welcome. Just make a pull request or a issue!
 
 ## Preview
