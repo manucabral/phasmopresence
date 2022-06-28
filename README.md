@@ -3,7 +3,7 @@ A simple Phasmophobia Rich Presence client made with :heart:
 
 This app does not use **MelonLoader** or **PhasBypass**
 
-## ⏬Download
+## ⏬ Download
 The lastest release is available [here](https://github.com/manucabral/phasmopresence/releases)
 
 ## 🗒️ Features
@@ -12,12 +12,12 @@ The lastest release is available [here](https://github.com/manucabral/phasmopres
 - Shows current playing map
 - Respects Discords 15 seconds status update limit
 
-## ❓How does it work?
+## ❓ How does it work?
 It's simple, PhasmoPresence periodically gets and checks information from the player log.
 
 The player log is located in the next path `C:\Users\%YOUR_USER%\AppData\LocalLow\Kinetic Games\Phasmophobia\Player.log`
 
-## 🔧Setup for developers
+## 🔧 Setup for developers
 1. Go to Discord Developer Portal and create an application
 2. Now go to Settings > OAuth2 and copy the clientid
 3. Finally go to Settings > Rich Presence
@@ -27,7 +27,7 @@ The player log is located in the next path `C:\Users\%YOUR_USER%\AppData\LocalLo
 7. Go to **src/core.py** and put your clientid.
 8. Run **src/core.py**
 
-## 🔨Troubleshooting
+## 🔨 Troubleshooting
 - **My Rich Presence Client is not displaying?**
   - Try
      - Go to your User Settings > Activity Status > Display current activity as a status message and make sure it's enabled.
@@ -36,7 +36,7 @@ The player log is located in the next path `C:\Users\%YOUR_USER%\AppData\LocalLo
 - **Do I need Discord open on my pc to use this app?**
   - Yes, you need to open Discord to run the app.
 
-## ✨Contributing
+## ✨ Contributing
 All contributions, bug reports, bug fixes, enhancements, and ideas are welcome. Just make a pull request or a issue!
 
 ## Preview
