@@ -1,5 +1,5 @@
 # PhasmoPresence👻
-> OUTDATED since halloween update
+> OUTDATED since halloween update, if u have a error please make an issue.
 
 A simple Phasmophobia Rich Presence client made with :heart:
 
