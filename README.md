@@ -1,5 +1,4 @@
 # PhasmoPresence👻
-> OUTDATED since halloween update, if u have a error please make an issue.
 
 A simple Phasmophobia Rich Presence client made with :heart:
 
@@ -10,7 +9,7 @@ The lastest release is available [here](https://github.com/manucabral/phasmopres
 
 ## 🗒️ Features
 - Shows if you're playing singleplayer or multiplayer
-- Shows how long you've been playing
+- Shows how long you've been playing (supports only v0.1)
 - Shows current playing map
 - Respects Discords 15 seconds status update limit
 
