@@ -23,7 +23,7 @@ class PhasmoReader:
         for line in data.splitlines():
             key, value = line.split(':')
             key = key.strip()
-            if key == 'Difficulty' and value == '(Difficulty)':
+            if key == 'Difficulty' and '(Difficulty)' in value:
                 value = 'Normal'
             data_dict[key] = value.strip()
         return data_dict
@@ -55,4 +55,4 @@ class PhasmoReader:
         data = {}
         for line in level[-1].split('|'):
             data.update(self.__format(line))
-        return self.__send_state('Game running', data)
+        return self.__send_state('In-game', data)
