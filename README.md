@@ -1,8 +1,11 @@
+
+# This RPC has been moved to [RICH PRESENCE PLUS](https://github.com/manucabral/RichPresencePlus)
 # PhasmoPresence👻
 
 A simple Phasmophobia Rich Presence client made with :heart:
 
 This app does not use **MelonLoader** or **PhasBypass**
+
 
 ## ⏬ Download
 The lastest release is available [here](https://github.com/manucabral/phasmopresence/releases)
